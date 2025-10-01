@@ -6,4 +6,4 @@ build:
   python_packages:
     - "inferless-cli"
   run:
-    - "git clone https://huggingface.co/spaces/dangthr/Hunyuan3D-Part && cd Hunyuan3D-Part && pip install -r requirements.txt"
+    - "ls"
