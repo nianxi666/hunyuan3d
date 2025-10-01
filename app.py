@@ -1,4 +1,4 @@
-  import subprocess
+import subprocess
 import inferless
 from pydantic import BaseModel, Field
 from typing import Optional
