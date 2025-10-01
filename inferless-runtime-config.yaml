@@ -1,0 +1,9 @@
+build:
+  cuda_version: "12.8"
+  python_version: "3.12"
+  system_packages:
+    - "git"
+  python_packages:
+    - "inferless-cli"
+  run:
+    - "git clone https://huggingface.co/spaces/dangthr/Hunyuan3D-PartHunyuan3D-Part && cd Hunyuan3D-Part && pip install -r.requirements.txt"
