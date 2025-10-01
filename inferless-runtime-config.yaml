@@ -1,9 +1,9 @@
 build:
-  cuda_version: "12.1"
+  cuda_version: "12.9"
   python_version: "3.10"
   system_packages:
     - "git"
   python_packages:
-    - "inferless-cli"
+    - "torch-2.8.0"
   run:
     - "ls"
