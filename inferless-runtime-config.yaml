@@ -4,6 +4,6 @@ build:
   system_packages:
     - "git"
   python_packages:
-    - "torch-2.8.0"
+    - "torch"
   run:
     - "ls"
