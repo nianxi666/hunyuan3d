@@ -6,4 +6,4 @@ build:
   python_packages:
     - "torch"
   run:
-    - "ls"
+    - "git clone https://huggingface.co/spaces/dangthr/Hunyuan3D-Part && cd Hunyuan3D-Part && pip install packaging setuptools spaces wheel && pip install --no-cache-dir -r requirements.txt"
